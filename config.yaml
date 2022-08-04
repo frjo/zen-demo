@@ -37,5 +37,6 @@ params:
   imageMaxWidth: 400
   mobileMenu: true
   poweredby: false
+  realfavicongenerator: true
   sidebar: true
   submitted: true
