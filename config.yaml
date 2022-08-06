@@ -35,8 +35,21 @@ params:
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
+  logoWidth: 64
   mobileMenu: true
   poweredby: false
   realfavicongenerator: true
   sidebar: true
   submitted: true
+
+languages:
+  en:
+    weight: 1
+    languageName: "English"
+    languageCode: "en-GB"
+    contentDir: content/en
+  sv:
+    weight: 2
+    languageName: "Svenska"
+    languageCode: "sv-SE"
+    contentDir: content/sv
