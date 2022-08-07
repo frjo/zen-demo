@@ -5,3 +5,5 @@ date: 2022-08-03T20:48:20+02:00
 ---
 
 This is a demo site for the [Hugo zen theme](https://github.com/frjo/hugo-theme-zen) (GitHub).
+
+Source code for [Zen demo site](https://github.com/frjo/zen-demo) (GitHub).
