@@ -16,5 +16,5 @@ I am happy to see that other people also have found it useful.
 
 What you see here is the base reset CSS plus the Zen styles. I fully expect most users of this theme will remove the Zen styles. They are a set of styles I happen to use often in my own projects.
 
-To make this theme looks like anything you need to add your own custom styling to it. It is a **base** theme after all.
+To make this theme look like anything you need to add your own custom styling to it. It is a **base** theme after all.
 
