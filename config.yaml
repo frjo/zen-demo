@@ -13,6 +13,11 @@ author:
   name: "Fredrik Jonsson"
   url: "https://xdeb.org"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 outputFormats:
   SearchIndex:
     mediaType: "application/json"
@@ -26,18 +31,17 @@ outputs:
 
 params:
   contact: "frjo@xdeb.org"
-  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: true
-  footer: "Powered by [Hugo](https://gohugo.io/) and the [Zen theme](https://github.com/frjo/hugo-theme-zen)."
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
   logoWidth: 64
   mobileMenu: true
-  poweredby: false
+  poweredby: true
   realfavicongenerator: true
   sidebar: true
   submitted: true
