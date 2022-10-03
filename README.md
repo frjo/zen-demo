@@ -5,7 +5,7 @@ The zen theme for Hugo demo site.
 * View the demo site: <http://zen-demo.xdeb.org>
 * Download theme at: <https://github.com/frjo/hugo-theme-zen>
 
-Feel free to fork this repo if you want to use it as a quickstart for your site.
+Feel free to use this repo as a template if you want it as a quickstart for your site. Use the green "Use this template" button above.
 
 ## Features
 
