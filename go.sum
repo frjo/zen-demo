@@ -1,2 +1,4 @@
 github.com/frjo/hugo-theme-zen/v2 v2.5.2 h1:Eu8R/tyqvXkx7Eo9KXI6AlPrniG9rUY6E0oDsEb1/lA=
 github.com/frjo/hugo-theme-zen/v2 v2.5.2/go.mod h1:bjXp0K3ADEHreZ6+vt/FdtEdPBNdS6IDtJm5NkXrNxU=
+github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230219121312-4974cd515e0c h1:P80yxrGpFQhrMZnqsfpW3TJTHzh0zfsAPN6qAZBHJNk=
+github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230219121312-4974cd515e0c/go.mod h1:hwFwwEwrOoL2Z8t11M3jqQyr0yOp7tpBRnp58S6gPYk=
