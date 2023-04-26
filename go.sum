@@ -1,8 +1,2 @@
-github.com/frjo/hugo-theme-zen/v2 v2.5.2 h1:Eu8R/tyqvXkx7Eo9KXI6AlPrniG9rUY6E0oDsEb1/lA=
-github.com/frjo/hugo-theme-zen/v2 v2.5.2/go.mod h1:bjXp0K3ADEHreZ6+vt/FdtEdPBNdS6IDtJm5NkXrNxU=
-github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230219121312-4974cd515e0c h1:P80yxrGpFQhrMZnqsfpW3TJTHzh0zfsAPN6qAZBHJNk=
-github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230219121312-4974cd515e0c/go.mod h1:hwFwwEwrOoL2Z8t11M3jqQyr0yOp7tpBRnp58S6gPYk=
-github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230326122112-516dff348e85 h1:7sq/uz7jM63PY3eG1RCgOpIgIBZaYUGev/zNX6UfGew=
-github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230326122112-516dff348e85/go.mod h1:hwFwwEwrOoL2Z8t11M3jqQyr0yOp7tpBRnp58S6gPYk=
-github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230403100137-2a24277c9049 h1:FEr6BGhTvX2Wj13a/7kCHvoEdmhvj6zR2m7eQ4fo1kQ=
-github.com/frjo/hugo-theme-zen/v3 v3.0.0-20230403100137-2a24277c9049/go.mod h1:hwFwwEwrOoL2Z8t11M3jqQyr0yOp7tpBRnp58S6gPYk=
+github.com/frjo/hugo-theme-zen/v3 v3.1.0 h1:OgKYM8okyJBfGrVzurhsBhuiAUNw9uqN4H3ItnyrEvY=
+github.com/frjo/hugo-theme-zen/v3 v3.1.0/go.mod h1:hwFwwEwrOoL2Z8t11M3jqQyr0yOp7tpBRnp58S6gPYk=
