@@ -44,6 +44,7 @@ params:
   imageMaxWidth: 400
   logoWidth: 64
   mobileMenu: true
+  mobileMenuOutline: true
   poweredby: true
   realfavicongenerator: true
   sidebar: true
