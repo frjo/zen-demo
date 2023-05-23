@@ -43,6 +43,7 @@ params:
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
   logoWidth: 64
+  logoHeight: 64
   mobileMenu: true
   mobileMenuOutline: true
   poweredby: true
