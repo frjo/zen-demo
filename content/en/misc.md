@@ -7,7 +7,7 @@ submitted: false
 
 ## Table with the "zebra-table" and "responsive-table" components classes
 
-|SSG|Stars|Desciption|Lang|Licence|
+|SSG|Stars|Description|Lang|Licence|
 |---|---|---|---|---|
 |Next.js|97399|Next.js is a minimalistic framework for server-rendered React applications as well as statically exported React apps.|JavaScript|MIT|
 |Hugo|64086|Hugo is a static site generator written in Go. It is optimized for speed, easy use and configurability.|Go|Apache-2.0|
