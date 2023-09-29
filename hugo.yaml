@@ -50,6 +50,7 @@ params:
   realfavicongenerator: true
   sidebar: true
   submitted: true
+  umbrella: true
 
 languages:
   en:

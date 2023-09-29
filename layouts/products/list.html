@@ -1,0 +1,57 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<header>
+<h1 class="title">{{ .Title }}</h1>
+</header>
+
+{{ with .Content -}}
+<div class="content">
+{{ . }}
+</div>
+{{ end -}}
+
+<div id="js-list">
+  {{ if $.Param "listsort" -}}
+  <div class="filter margin-top">
+    <input class="search" placeholder="Search">
+
+    <select class="js-filter-1">
+      <option value="">Tags</option>
+      {{ range site.Taxonomies.tags -}}
+      <option value="{{ .Page.Title }}">{{ .Page.Title }}</option>
+      {{ end -}}
+    </select>
+
+    <select class="js-filter-2">
+      <option value="">Categories</option>
+      {{ range site.Taxonomies.categories -}}
+      <option value="{{ .Page.Title }}">{{ .Page.Title }}</option>
+      {{ end -}}
+    </select>
+
+    <button class="sort" data-sort="products">
+      Sort by product
+    </button>
+
+    <button class="sort" data-sort="date">
+      Sort by date
+    </button>
+  </div>
+  {{ end -}}
+
+  <table class="list-table">
+    <thead>
+      <tr><th class="sort" data-sort="products">Product</th><th class="sort" data-sort="tags">Tags</th><th class="sort" data-sort="categories">Categories</th><th class="sort" data-sort="date">Date</th></tr>
+    </thead>
+    <tbody class="js-items">
+    {{ range .Pages -}}
+    {{ .Render "tr" }}
+    {{ end -}}
+    </tbody>
+  </table>
+
+  <nav><ul class="navbar pagination"></ul></nav>
+</div>
+
+</main>
+{{ end -}}
