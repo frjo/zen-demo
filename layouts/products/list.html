@@ -5,27 +5,27 @@
 </header>
 
 {{ with .Content -}}
-<div class="content">
-{{ . }}
-</div>
+  <div class="content">
+    {{ . }}
+  </div>
 {{ end -}}
 
 <div id="js-list">
   {{ if $.Param "listsort" -}}
   <div class="filter margin-top">
-    <input class="fuzzy-search" placeholder="Search">
+    <input type="search" class="fuzzy-search" placeholder="Search">
 
     <select class="js-filter-1">
       <option value="">Tags</option>
       {{ range site.Taxonomies.tags -}}
-      <option value="{{ .Page.Title }}">{{ .Page.Title }}</option>
+        <option value="{{ .Page.Title }}">{{ .Page.Title }}</option>
       {{ end -}}
     </select>
 
     <select class="js-filter-2">
       <option value="">Categories</option>
       {{ range site.Taxonomies.categories -}}
-      <option value="{{ .Page.Title }}">{{ .Page.Title }}</option>
+        <option value="{{ .Page.Title }}">{{ .Page.Title }}</option>
       {{ end -}}
     </select>
 
@@ -41,12 +41,17 @@
 
   <table class="list-table">
     <thead>
-      <tr><th class="sort" data-sort="products">Product</th><th class="sort" data-sort="tags">Tags</th><th class="sort" data-sort="categories">Categories</th><th class="sort" data-sort="date">Date</th></tr>
+      <tr>
+        <th class="sort" data-sort="products">Product</th>
+        <th class="sort" data-sort="tags">Tags</th>
+        <th class="sort" data-sort="categories">Categories</th>
+        <th class="sort" data-sort="date">Date</th>
+      </tr>
     </thead>
     <tbody class="js-items">
-    {{ range .Pages -}}
-    {{ .Render "tr" }}
-    {{ end -}}
+      {{ range .Pages -}}
+        {{ .Render "tr" }}
+      {{ end -}}
     </tbody>
   </table>
 
