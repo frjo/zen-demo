@@ -44,6 +44,8 @@ params:
   imageMaxWidth: 400
   logoWidth: 64
   logoHeight: 64
+  mainSections:
+    - blog
   mobileMenu: true
   mobileMenuOutline: true
   poweredby: true
