@@ -12,7 +12,7 @@
     valueNames: [ 'products', 'tags', 'categories', 'date' ],
     listClass: 'js-items',
     page: 30,
-    pagination: true
+    pagination: false
   };
 
   const items = new List('js-list', options);
