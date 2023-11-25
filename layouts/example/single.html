@@ -1,0 +1,22 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<article class="single-view{{ with .Section }} single-view--{{ . | urlize }}{{ end }}">
+<header>
+<h1 class="title{{ if $.Param "submitted" | default false }} mb--xxs{{ end }}">{{ .Title }}</h1>
+{{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
+{{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
+</header>
+
+{{ .Content }}
+</article>
+
+{{ range .Params.examples }}
+<section class="{{ .class }}">
+<h2>{{ .title }}</h2>
+
+<p>{{ .text }}</p>
+</section>
+{{ end }}
+
+</main>
+{{ end -}}

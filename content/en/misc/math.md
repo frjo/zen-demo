@@ -2,6 +2,7 @@
 title: Math
 math: true
 submitted: false
+summary: Examples of math typesetting with KaTeX.
 
 ---
 
