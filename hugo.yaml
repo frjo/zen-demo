@@ -59,8 +59,38 @@ languages:
     languageName: "English"
     languageCode: "en-GB"
     contentDir: content/en
+    menu:
+      main:
+        - Name: "Home"
+          weight: -10
+          pageRef: "/"
+        - Name: "Blog"
+          weight: 2
+          pageRef: "/blog/"
+        - Name: "Podcast"
+          weight: 4
+          pageRef: "/podcast/"
+        - Name: "Products"
+          weight: 6
+          pageRef: "/products/"
+        - Name: "Misc"
+          weight: 8
+          pageRef: "/misc/"
+        - Name: "Search"
+          weight: 10
+          pageRef: "/search/"
+        - Name: "Contact"
+          weight: 12
+          pageRef: "/contact/"
+
   sv:
     weight: 2
     languageName: "Svenska"
     languageCode: "sv-SE"
     contentDir: content/sv
+    menu:
+      main:
+        - Name: "Hem"
+          weight: -10
+          pageRef: "/"
+
