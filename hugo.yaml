@@ -10,9 +10,6 @@ rssLimit: 20
 pagination:
   pagerSize: 10
   path: page
-author:
-  name: "Fredrik Jonsson"
-  url: "https://xdeb.org"
 
 markup:
   goldmark:
@@ -34,6 +31,9 @@ outputs:
   section: ["HTML","RSS", "JSON"]
 
 params:
+  author:
+    name: "Fredrik Jonsson"
+    url: "https://xdeb.org"
   contact: "frjo@xdeb.org"
   copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
   description: "The zen theme for Hugo demo site."
