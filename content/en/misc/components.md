@@ -41,9 +41,15 @@ Lorem ipsum dolor sit amet.
 
 ## Messages colour display {.mt--xl}
 
-### Status
+### Info
 
-{{< wrapper "message status" >}}
+{{< wrapper "message info" >}}
+Lorem ipsum dolor sit amet.
+{{< /wrapper >}}
+
+### Success
+
+{{< wrapper "message success" >}}
 Lorem ipsum dolor sit amet.
 {{< /wrapper >}}
 
