@@ -48,7 +48,6 @@ params:
   mainSections:
     - blog
   mobileMenu: true
-  mobileMenuOutline: true
   poweredby: true
   realfavicongenerator: true
   sidebar: false
