@@ -19,6 +19,8 @@ markup:
         block: true
     renderer:
       unsafe: true
+  highlight:
+    style: github
 
 outputFormats:
   SearchIndex:
