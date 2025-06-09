@@ -4,4 +4,4 @@ go 1.24
 
 toolchain go1.24.1
 
-require github.com/frjo/hugo-theme-zen/v5 v5.4.2 // indirect
+require github.com/frjo/hugo-theme-zen/v5 v5.5.0 // indirect
