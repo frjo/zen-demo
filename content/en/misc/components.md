@@ -1,8 +1,9 @@
 ---
 title: Components
-tables: true
-submitted: false
 summary: Examples of some components classes.
+params:
+    submitted: false
+    tables: true
 
 ---
 

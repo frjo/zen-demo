@@ -1,8 +1,9 @@
 ---
 title: Products
-listsort: true
 weight: 10
-tables: true
+params:
+    listsort: true
+    tables: true
 
 ---
 

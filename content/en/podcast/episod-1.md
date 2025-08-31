@@ -1,9 +1,10 @@
 ---
 title: Episod 1
 date: 2022-08-06T18:09:03+02:00
-podcast:
-    mp3: podcasts/podcast1.mp3
-    duration: 0:0:10
+params:
+    podcast:
+        mp3: podcasts/podcast1.mp3
+        duration: 0:0:10
 
 ---
 

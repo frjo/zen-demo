@@ -1,6 +1,7 @@
 ---
 title: Search
-submitted: false
+params:
+    submitted: false
 
 ---
 

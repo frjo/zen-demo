@@ -1,7 +1,8 @@
 ---
 title: Codeblocks
-submitted: false
 summary: Examples of copy button on codeblocks.
+params:
+    submitted: false
 
 ---
 

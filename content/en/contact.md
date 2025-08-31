@@ -1,6 +1,7 @@
 ---
 title: Contact
-submitted: false
+params:
+    submitted: false
 
 ---
 
