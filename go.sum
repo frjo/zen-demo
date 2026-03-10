@@ -1,10 +1,2 @@
-github.com/frjo/hugo-theme-zen/v5 v5.5.0 h1:lFAwumHCECdiV/3R27Nz1Ctkx8ph8GytJ2s8z+/ULjo=
-github.com/frjo/hugo-theme-zen/v5 v5.5.0/go.mod h1:6KlhteJ4KDm55kIMJvC2d2yVQphhGhLb/5RCTPrOrfg=
-github.com/frjo/hugo-theme-zen/v5 v5.6.0 h1:rYlsSC5U7fmEL6aob9js/8QvYGmhDWtk4K27Psm+18o=
-github.com/frjo/hugo-theme-zen/v5 v5.6.0/go.mod h1:6KlhteJ4KDm55kIMJvC2d2yVQphhGhLb/5RCTPrOrfg=
-github.com/frjo/hugo-theme-zen/v5 v5.7.0 h1:7KHSMk8jGPp6YtXTUg7GZfJ5k3LfUCh3dh6xaTXLMO4=
-github.com/frjo/hugo-theme-zen/v5 v5.7.0/go.mod h1:6KlhteJ4KDm55kIMJvC2d2yVQphhGhLb/5RCTPrOrfg=
-github.com/frjo/hugo-theme-zen/v5 v5.8.0 h1:YpczfWQuOk0tZF8ep7dEGlb4HbLs0eqoffh3KnOWhak=
-github.com/frjo/hugo-theme-zen/v5 v5.8.0/go.mod h1:6KlhteJ4KDm55kIMJvC2d2yVQphhGhLb/5RCTPrOrfg=
-github.com/frjo/hugo-theme-zen/v5 v5.9.0 h1:RuDMJBEtr1WnrWtZpNkgxeKMltliu81aEBrZY2BzCRs=
-github.com/frjo/hugo-theme-zen/v5 v5.9.0/go.mod h1:6KlhteJ4KDm55kIMJvC2d2yVQphhGhLb/5RCTPrOrfg=
+github.com/frjo/hugo-theme-zen/v6 v6.0.1 h1:tDE4z/upbcrVC7bVk2D51vmzPwh1AITFwUrrLn5tkUY=
+github.com/frjo/hugo-theme-zen/v6 v6.0.1/go.mod h1:xQmX1GLOAfm0vnscAErU2zvQSjfLLN6ieZTRgLW3UNA=

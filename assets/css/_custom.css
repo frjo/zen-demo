@@ -1,0 +1,5 @@
+:root {
+  /* The max content and page width. */
+  --max-content-width: 777px;
+  --max-page-width: 1111px;
+}
