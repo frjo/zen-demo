@@ -3,7 +3,7 @@ title: "Zen demo site"
 baseURL: "https://zen-demo.xdeb.org/"
 theme: "github.com/frjo/hugo-theme-zen/v6"
 copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license.<!--/Creative Commons License-->'
-languageCode: "en-GB"
+locale: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
 removePathAccents: true
@@ -58,8 +58,8 @@ params:
 languages:
   en:
     weight: 1
-    languageName: "English"
-    languageCode: "en-GB"
+    label: "English"
+    locale: "en-GB"
     contentDir: content/en
     menu:
       main:
@@ -87,8 +87,8 @@ languages:
 
   sv:
     weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
+    label: "Svenska"
+    locale: "sv-SE"
     contentDir: content/sv
     menu:
       main:
