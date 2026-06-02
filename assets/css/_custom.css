@@ -3,3 +3,10 @@
   --max-content-width: 777px;
   --max-page-width: 1111px;
 }
+
+
+.header__logo {
+  @container style(--theme: dark) {
+    background-color: var(--color-grey-300);
+  }
+}
